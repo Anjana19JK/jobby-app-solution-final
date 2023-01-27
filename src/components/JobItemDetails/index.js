@@ -191,7 +191,7 @@ class JobItemDetails extends Component {
         type="button"
         data-testid="button"
         className="job-item-failure-button"
-        onClick={this.getJobItem()}
+        onClick={this.getJobItem}
       >
         Retry
       </button>
